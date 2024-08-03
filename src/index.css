@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.light, [data-theme="light"] {
+  --color-bg: white;
+  --color-text: black;
+}
+
+.dark, [data-theme="dark"] {
+  --color-bg: black;
+  --color-text: white;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
