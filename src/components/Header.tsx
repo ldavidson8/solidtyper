@@ -1,31 +1,22 @@
+import SettingsIcon from "~icons/lucide/settings-2";
+import InfoIcon from "~icons/lucide/info";
+
 export const Header = () => {
 	return (
-		<header class="bg-neutral-900 text-white">
-			<div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-				<a
-					href="https://solidtyper.com"
-					class="flex title-font font-medium items-center text-neutral-900 mb-4 md:mb-0"
-				>
-					title
+		<nav class="max-w-6xl w-full px-6 h-[72px] flex items-center justify-between mx-auto">
+			<div>
+				<a href="/" class="flex-1 text-2xl font-bold">
+					SolidTyper
 				</a>
-				<nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-					<a href="https://solidtyper.com" class="mr-5 hover:text-neutral-900">
-						Home
-					</a>
-					<a
-						href="https://solidtyper.com/about"
-						class="mr-5 hover:text-neutral-900"
-					>
-						About
-					</a>
-					<a
-						href="https://solidtyper.com/contact"
-						class="mr-5 hover:text-neutral-900"
-					>
-						Contact
-					</a>
-				</nav>
 			</div>
-		</header>
+			<div class="flex-1 flex items-center lg:justify-end gap-6">
+				<a href="/settings" class="text-xl">
+					<SettingsIcon />
+				</a>
+				<a href="/about">
+					<InfoIcon />
+				</a>
+			</div>
+		</nav>
 	);
 };
