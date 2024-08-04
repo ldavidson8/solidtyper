@@ -4,6 +4,7 @@ import { defineConfig } from "vite";
 import solidPlugin from "vite-plugin-solid";
 // import devtools from 'solid-devtools/vite';
 import Icons from "unplugin-icons/vite";
+import { VitePWA } from "vite-plugin-pwa";
 
 export default defineConfig({
 	plugins: [
@@ -15,6 +16,10 @@ export default defineConfig({
 		solidPlugin(),
 		Icons({
 			compiler: "solid",
+		}),
+		VitePWA({
+			registerType: "prompt",
+			// devOptions: { enabled: true },
 		}),
 	],
 	resolve: {
