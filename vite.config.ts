@@ -1,6 +1,7 @@
 import { defineConfig } from "vite";
 import solidPlugin from "vite-plugin-solid";
 // import devtools from 'solid-devtools/vite';
+import Icons from "unplugin-icons/vite";
 
 export default defineConfig({
 	plugins: [
@@ -10,6 +11,10 @@ export default defineConfig({
     */
 		// devtools(),
 		solidPlugin(),
+		Icons({
+			compiler: "jsx",
+			jsx: "preact",
+		}),
 	],
 	server: {
 		port: 3000,
