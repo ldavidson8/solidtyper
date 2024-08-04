@@ -8,6 +8,30 @@ importers:
 
   .:
     dependencies:
+      '@fontsource-variable/jetbrains-mono':
+        specifier: ^5.0.21
+        version: 5.0.21
+      '@fontsource-variable/nunito':
+        specifier: ^5.0.19
+        version: 5.0.19
+      '@fontsource-variable/roboto-mono':
+        specifier: ^5.0.19
+        version: 5.0.19
+      '@fontsource-variable/source-code-pro':
+        specifier: ^5.0.19
+        version: 5.0.19
+      '@fontsource/ibm-plex-mono':
+        specifier: ^5.0.13
+        version: 5.0.13
+      '@fontsource/lato':
+        specifier: ^5.0.21
+        version: 5.0.21
+      '@fontsource/roboto':
+        specifier: ^5.0.14
+        version: 5.0.14
+      '@fontsource/ubuntu':
+        specifier: ^5.0.13
+        version: 5.0.13
       '@solidjs/router':
         specifier: ^0.14.1
         version: 0.14.1(solid-js@1.8.11)
@@ -25,8 +49,8 @@ importers:
         specifier: ^8.4.40
         version: 8.4.40
       solid-devtools:
-        specifier: ^0.29.2
-        version: 0.29.2(solid-js@1.8.11)(vite@5.0.11)
+        specifier: ^0.30.1
+        version: 0.30.1(solid-js@1.8.11)(vite@5.0.11)
       tailwindcss:
         specifier: ^3.4.7
         version: 3.4.7
@@ -417,6 +441,30 @@ packages:
     cpu: [x64]
     os: [win32]
 
+  '@fontsource-variable/jetbrains-mono@5.0.21':
+    resolution: {integrity: sha512-LL/57KBbM3r0UMuN6tSeYExiBObt0QuGq49m1FyoDFIv1GAcuKU0EQ/GAKJ/yt3R8onOCD3f5X9Dln//G6uzRQ==}
+
+  '@fontsource-variable/nunito@5.0.19':
+    resolution: {integrity: sha512-kY+1OIFhl167U25iY+V2GLk6E389UKIu0rnJXAj2y4qc6mYqbMcyeT0Y7G+btT6ZdItL2dcvX0bOfe0cbddQYg==}
+
+  '@fontsource-variable/roboto-mono@5.0.19':
+    resolution: {integrity: sha512-EGHx+Av6qNZf1XUM69eE1dwG3vtZHTpRETlkgt9BoRcN0T9xG+Boo/TzznmhI40CLI1zwBjmglEIu2qNI462Vw==}
+
+  '@fontsource-variable/source-code-pro@5.0.19':
+    resolution: {integrity: sha512-mmeEykZsLRuFsklfamKVwahnWNpdAzpvGcOPPiFUydSnrd/9aEXy/HzOSYCOOTCP667L4nio9rB7wO3KVO5J/w==}
+
+  '@fontsource/ibm-plex-mono@5.0.13':
+    resolution: {integrity: sha512-gtlMmvk//2AgDEZDFsoL5z9mgW3ZZg/9SC7pIfDwNKp5DtZpApgqd1Fua3HhPwYRIHrT76IQ1tMTzQKLEGtJGQ==}
+
+  '@fontsource/lato@5.0.21':
+    resolution: {integrity: sha512-UubLwvJO2bKuhWv6+ocx2Bou/pPIT6q7VpYaHIW7ZDaLPQY3uYAhveJg6P7Lvz5HYHyLba8JUc3yP7wvcqA8zQ==}
+
+  '@fontsource/roboto@5.0.14':
+    resolution: {integrity: sha512-zHAxlTTm9RuRn9/StwclFJChf3z9+fBrOxC3fw71htjHP1BgXNISwRjdJtAKAmMe5S2BzgpnjkQR93P9EZYI/Q==}
+
+  '@fontsource/ubuntu@5.0.13':
+    resolution: {integrity: sha512-uCnfknLk6ERUUgGPHqvtLGkHkW/0oyxEJy6CZLaHbh6d1om1jvqcnc5nSPel1UCX5frLxRSTkRKU/vAbL9QtJw==}
+
   '@isaacs/cliui@8.0.2':
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
     engines: {node: '>=12'}
@@ -526,13 +574,13 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@solid-devtools/debugger@0.23.3':
-    resolution: {integrity: sha512-VrgswTjb2FyHxQJp5y5u7OaJ2k1R14LYlAOX/1rDZrGHWKdGYCaWHGzxI7C8AExtMP+LS+WOxy0uXMPQpoAD2g==}
+  '@solid-devtools/debugger@0.23.4':
+    resolution: {integrity: sha512-EfTB1Eo313wztQYGJ4Ec/wE70Ay2d603VCXfT3RlyqO5QfLrQGRHX5NXC07hJpQTJJJ3tbNgzO7+ZKo76MM5uA==}
     peerDependencies:
       solid-js: ^1.8.0
 
-  '@solid-devtools/shared@0.13.1':
-    resolution: {integrity: sha512-qaAcZF47FFr4alVQSy5ooLy7mMt4MMDxSHw52heY1oCut8yfXDrnLcYDONabfoin2WYIwsQpjYhryHgjtB0uDg==}
+  '@solid-devtools/shared@0.13.2':
+    resolution: {integrity: sha512-Y4uaC4EfTVwBR537MZwfaY/eiWAh+hW4mbtnwNuUw/LFmitHSkQhNQTUlLQv/S0chtwrYWQBxvXos1dC7e8R9g==}
     peerDependencies:
       solid-js: ^1.8.0
 
@@ -1102,12 +1150,12 @@ packages:
     resolution: {integrity: sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==}
     engines: {node: '>=14'}
 
-  solid-devtools@0.29.2:
-    resolution: {integrity: sha512-sfGLBSIQ3E5dFha5UCE5wKnz+War99JNAOggfBbwhltXL8lbIG1PnKKB9N2pvloZuFzMtT/u1Qbb/ubqXnw2Sg==}
+  solid-devtools@0.30.1:
+    resolution: {integrity: sha512-axpXL4JV1dnGhuei+nSGS8ewGeNkmIgFDsAlO90YyYY5t8wU1R0aYAQtL+I+5KICLKPBvfkzdcFa2br7AV4lAw==}
     peerDependencies:
       solid-js: ^1.8.0
       solid-start: ^0.3.0
-      vite: ^2.2.3 || ^3.0.0 || ^4.0.0
+      vite: ^2.2.3 || ^3.0.0 || ^4.0.0 || ^5.0.0
     peerDependenciesMeta:
       solid-start:
         optional: true
@@ -1597,6 +1645,22 @@ snapshots:
   '@esbuild/win32-x64@0.19.11':
     optional: true
 
+  '@fontsource-variable/jetbrains-mono@5.0.21': {}
+
+  '@fontsource-variable/nunito@5.0.19': {}
+
+  '@fontsource-variable/roboto-mono@5.0.19': {}
+
+  '@fontsource-variable/source-code-pro@5.0.19': {}
+
+  '@fontsource/ibm-plex-mono@5.0.13': {}
+
+  '@fontsource/lato@5.0.21': {}
+
+  '@fontsource/roboto@5.0.14': {}
+
+  '@fontsource/ubuntu@5.0.13': {}
+
   '@isaacs/cliui@8.0.2':
     dependencies:
       string-width: 5.1.2
@@ -1681,10 +1745,10 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.9.5':
     optional: true
 
-  '@solid-devtools/debugger@0.23.3(solid-js@1.8.11)':
+  '@solid-devtools/debugger@0.23.4(solid-js@1.8.11)':
     dependencies:
       '@nothing-but/utils': 0.12.1
-      '@solid-devtools/shared': 0.13.1(solid-js@1.8.11)
+      '@solid-devtools/shared': 0.13.2(solid-js@1.8.11)
       '@solid-primitives/bounds': 0.0.118(solid-js@1.8.11)
       '@solid-primitives/cursor': 0.0.112(solid-js@1.8.11)
       '@solid-primitives/event-bus': 1.0.9(solid-js@1.8.11)
@@ -1697,7 +1761,7 @@ snapshots:
       '@solid-primitives/utils': 6.2.2(solid-js@1.8.11)
       solid-js: 1.8.11
 
-  '@solid-devtools/shared@0.13.1(solid-js@1.8.11)':
+  '@solid-devtools/shared@0.13.2(solid-js@1.8.11)':
     dependencies:
       '@solid-primitives/event-bus': 1.0.9(solid-js@1.8.11)
       '@solid-primitives/event-listener': 2.3.1(solid-js@1.8.11)
@@ -2253,13 +2317,13 @@ snapshots:
 
   signal-exit@4.1.0: {}
 
-  solid-devtools@0.29.2(solid-js@1.8.11)(vite@5.0.11):
+  solid-devtools@0.30.1(solid-js@1.8.11)(vite@5.0.11):
     dependencies:
       '@babel/core': 7.23.7
       '@babel/plugin-syntax-typescript': 7.23.3(@babel/core@7.23.7)
       '@babel/types': 7.23.6
-      '@solid-devtools/debugger': 0.23.3(solid-js@1.8.11)
-      '@solid-devtools/shared': 0.13.1(solid-js@1.8.11)
+      '@solid-devtools/debugger': 0.23.4(solid-js@1.8.11)
+      '@solid-devtools/shared': 0.13.2(solid-js@1.8.11)
       solid-js: 1.8.11
     optionalDependencies:
       vite: 5.0.11
