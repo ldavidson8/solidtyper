@@ -35,6 +35,7 @@
 		"@fontsource/roboto": "^5.0.14",
 		"@fontsource/ubuntu": "^5.0.13",
 		"@kobalte/core": "^0.13.4",
+		"@solidjs/meta": "^0.29.4",
 		"@solidjs/router": "^0.14.1",
 		"class-variance-authority": "^0.7.0",
 		"clsx": "^2.1.1",
