@@ -9,6 +9,15 @@ import { Settings } from "./routes/Settings";
 import { MetaTags } from "./components/MetaTags";
 import { ThemeProvider } from "./context/ThemeProvider";
 
+import "@fontsource-variable/jetbrains-mono";
+import "@fontsource-variable/nunito";
+import "@fontsource-variable/roboto-mono";
+import "@fontsource-variable/source-code-pro";
+import "@fontsource/ibm-plex-mono";
+import "@fontsource/lato";
+import "@fontsource/roboto";
+import "@fontsource/ubuntu";
+
 const App: Component = () => {
 	return (
 		<>

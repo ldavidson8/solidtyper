@@ -1,30 +1,25 @@
 import type { Component } from "solid-js";
-import { For } from "solid-js";
-import { Button } from "~/components/ui/button";
-import { themes } from "~/config/themeConfig";
-import { useTheme } from "~/context/ThemeProvider";
-import { cn } from "~/lib/utils";
+import { FontSelector } from "~/components/FontSelector";
+import { ThemeSelector } from "~/components/ThemeSelector";
+import PaletteIcon from "~icons/lucide/palette";
+import TypeIcon from "~icons/lucide/type";
 
 export const Settings: Component = () => {
-	const { theme, setTheme } = useTheme();
 	return (
-		<div class="flex flex-col max-w-4xl mx-auto">
-			<div>
-				<h2>Theme</h2>
-				<For each={themes}>
-					{(themeName) => (
-						<Button
-							variant="outline"
-							onClick={() => setTheme(themeName)}
-							class={cn(
-								"capitalize text-foreground",
-								theme() === themeName && "bg-accent",
-							)}
-						>
-							{themeName}
-						</Button>
-					)}
-				</For>
+		<div class="flex flex-col max-w-4xl mx-auto gap-8">
+			<div class="flex flex-col gap-4">
+				<div class="flex items-center gap-2">
+					<PaletteIcon class="size-5" />
+					<h2>Theme</h2>
+				</div>
+				<ThemeSelector />
+			</div>
+			<div class="flex flex-col gap-4">
+				<div class="flex items-center gap-2">
+					<TypeIcon class="size-5" />
+					<h2>Font Family</h2>
+				</div>
+				<FontSelector />
 			</div>
 			<div>
 				<h2>Min Speed</h2>
