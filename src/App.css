@@ -93,6 +93,30 @@
 
     --radius: 0.5rem;
   }
+
+  .synthwave,
+  [data-kb-theme="synthwave"] {
+    --background: 270, 60%, 20%;
+    --foreground: 0, 0%, 85%;
+
+
+    --accent: 181, 79%, 54%;
+  }
+
+  .vanilla,
+  [data-kb-theme="vanilla"] {
+    --background: 41, 100%, 92%;
+    --foreground: 139, 69, 19;
+
+    --accent: 32, 31%, 77%
+  }
+  .evergreen,
+  [data-kb-theme="evergreen"] {
+    --background: 198, 20%, 10%;
+    --foreground: 0, 0%, 85%;
+
+    --accent: 110, 46%, 65%;
+  }
 }
 
 @layer base {
