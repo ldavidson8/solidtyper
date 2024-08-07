@@ -2,8 +2,8 @@ import { createEffect, createSignal } from "solid-js";
 
 export type FontFamilyName =
 	| "JetBrains Mono"
-	| "Nunito"
-	| "Roboto Mono"
+	| "Nunito Variable"
+	| "Roboto Mono Variable"
 	| "Source Code Pro"
 	| "IBM Plex Mono"
 	| "Lato"
@@ -12,8 +12,8 @@ export type FontFamilyName =
 
 export const fontFamilies: FontFamilyName[] = [
 	"JetBrains Mono",
-	"Nunito",
-	"Roboto Mono",
+	"Nunito Variable",
+	"Roboto Mono Variable",
 	"Source Code Pro",
 	"IBM Plex Mono",
 	"Lato",
