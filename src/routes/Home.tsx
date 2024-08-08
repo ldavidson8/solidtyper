@@ -1,5 +1,12 @@
 import type { Component } from "solid-js";
+import { TypeSettings } from "~/components/TypeSettings";
+import { TypeTester } from "~/components/TypeTester";
 
 export const Home: Component = () => {
-	return <h1>Home</h1>;
+	return (
+		<>
+			<TypeSettings />
+			<TypeTester />
+		</>
+	);
 };
