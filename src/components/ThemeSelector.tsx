@@ -1,8 +1,8 @@
 import { For } from "solid-js";
-import { Button } from "~/components/ui/button";
-import { themes } from "~/config/themeConfig";
-import { cn } from "~/lib/utils";
-import { useTheme } from "~/context/ThemeProvider";
+import { Button } from "@/components/ui/button";
+import { themes } from "@/config/themeConfig";
+import { cn } from "@/lib/cn";
+import { useTheme } from "@/context/ThemeProvider";
 
 export const ThemeSelector = () => {
 	const { theme, setTheme } = useTheme();

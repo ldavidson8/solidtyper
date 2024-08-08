@@ -6,7 +6,7 @@ import { MetaProvider } from "@solidjs/meta";
 import { Home } from "./routes/Home";
 import { About } from "./routes/About";
 import { Settings } from "./routes/Settings";
-import { MetaTags } from "./components/MetaTags";
+import { MetaTags } from "@/components/MetaTags";
 import { ThemeProvider } from "./context/ThemeProvider";
 
 import "@fontsource-variable/jetbrains-mono";

@@ -1,6 +1,6 @@
 import type { Component } from "solid-js";
-import { FontSelector } from "~/components/FontSelector";
-import { ThemeSelector } from "~/components/ThemeSelector";
+import { FontSelector } from "@/components/FontSelector";
+import { ThemeSelector } from "@/components/ThemeSelector";
 import PaletteIcon from "~icons/lucide/palette";
 import TypeIcon from "~icons/lucide/type";
 

@@ -1,7 +1,7 @@
 import { For } from "solid-js";
-import { Button } from "~/components/ui/button";
-import { fontFamilies, useFontFamily } from "~/config/fontConfig";
-import { cn } from "~/lib/utils";
+import { Button } from "@/components/ui/button";
+import { fontFamilies, useFontFamily } from "@/config/fontConfig";
+import { cn } from "@/lib/cn";
 
 export const FontSelector = () => {
 	const [fontFamily, setFontFamily] = useFontFamily();

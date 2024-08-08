@@ -6,7 +6,7 @@ import {
 	type ParentComponent,
 	onCleanup,
 } from "solid-js";
-import type { ThemeName } from "~/config/themeConfig";
+import type { ThemeName } from "@/config/themeConfig";
 
 type ThemeContextType = {
 	theme: () => ThemeName;

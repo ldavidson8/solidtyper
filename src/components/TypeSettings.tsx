@@ -1,5 +1,5 @@
 import { createStore } from "solid-js/store";
-import { Button } from "./ui/button";
+import { Button } from "@/components/ui/button";
 import { createSignal, For, Show } from "solid-js";
 
 interface Settings {
