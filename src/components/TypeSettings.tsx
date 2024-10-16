@@ -31,7 +31,7 @@ export const TypeSettings = () => {
 							{(setting) => (
 								<Button
 									variant="ghost"
-									class={settingStore[setting] ? "text-accent" : ""}
+									class={settingStore[setting] ? "text-accent-foreground font-medium bg-accent" : ""}
 									onClick={() =>
 										setSettingStore(setting as keyof Settings, (prev) => !prev)
 									}
@@ -47,7 +47,7 @@ export const TypeSettings = () => {
 						{(modeLabel) => (
 							<Button
 								variant="ghost"
-								class={mode() === modeLabel ? "text-accent" : ""}
+								class={mode() === modeLabel ? "text-accent-foreground font-medium bg-accent" : ""}
 								onClick={() => setMode(modeLabel)}
 							>
 								{modeLabel}
@@ -61,7 +61,7 @@ export const TypeSettings = () => {
 							{(duration) => (
 								<Button
 									variant="ghost"
-									class={selectedDuration() === duration ? "text-accent" : ""}
+									class={selectedDuration() === duration ? "text-accent-foreground font-medium bg-accent" : ""}
 									onClick={() => setSelectedDuration(duration)}
 								>
 									{duration}
@@ -74,7 +74,7 @@ export const TypeSettings = () => {
 							{(amount) => (
 								<Button
 									variant="ghost"
-									class={selectedWordsAmount() === amount ? "text-accent" : ""}
+									class={selectedWordsAmount() === amount ? "text-accent-foreground font-medium bg-accent" : ""}
 									onClick={() => setSelectedWordsAmount(amount)}
 								>
 									{amount}
@@ -87,7 +87,7 @@ export const TypeSettings = () => {
 							{(length) => (
 								<Button
 									variant="ghost"
-									class={selectedQuoteLength() === length ? "text-accent" : ""}
+									class={selectedQuoteLength() === length ? "text-accent-foreground font-medium bg-accent" : ""}
 									onClick={() => setSelectedQuoteLength(length)}
 								>
 									{length}
