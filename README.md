@@ -1,34 +1,46 @@
+# SolidTyper
+
+SolidTyper is a type tester application built using SolidJS. It allows users to practice and improve their typing speed and accuracy.
+
+## Features
+
+- **Real-time Typing Test**: Measure your typing speed and accuracy in real-time.
+- **Custom Texts**: Choose from a variety of texts or input your own.
+- **Statistics**: View detailed statistics of your typing performance.
+- **Responsive Design**: Works seamlessly on both desktop and mobile devices.
+
+## Installation
+
+To get started with SolidTyper, follow these steps:
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/yourusername/solidtyper.git
+   cd solidtyper
+   ```
+
+2. **Install dependencies**:
+
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**:
+   ```bash
+   npm start
+   ```
+
 ## Usage
 
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
+1. Open your browser and navigate to `http://localhost:3000`.
+2. Select a text or input your own.
+3. Start typing and see your results in real-time.
 
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
+## Contributing
 
-```bash
-$ npm install # or pnpm install or yarn install
-```
+Contributions are welcome! Please fork the repository and submit a pull request.
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+## License
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm run dev` or `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-
-### `npm run build`
-
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-## Deployment
-
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+This project is licensed under the MIT License.
